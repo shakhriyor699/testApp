@@ -15,7 +15,7 @@ const NavList = ({ list }) => {
             {list.map((item, index) => (
                 <li key={index} className={styles['nav__list-item']}>
                     <Link onClick={() => addActive(index)}
-                        to={index === list.length - 1 ? "/Контакты" : '/'}
+                        to={index === list.length - 1 ? "/contacts" : '/'}
                         className={classNames(styles['nav__list-link'], {
                             [styles['active']]: active === index
                         })}>

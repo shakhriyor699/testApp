@@ -18,10 +18,10 @@ function App() {
       <div className={styles['container']}>
         <Navigation list={list} lang={lang} />
         <div className={styles["wrapper__content"]}>
-          <span>Главная - {list.map((item, i) => location.pathname.split('/')[1] === item ? location.pathname.split('/')[1] : false)}</span>
+          <span className={styles['wrapper__content-span']}>Главная - <span>Контакты</span></span>
           <Routes>
             <Route path="/" element={location.pathname.split('/')[1]} />
-            <Route path="/Контакты" element={<Contacts />} />
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>
         </div>
       </div>

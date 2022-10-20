@@ -10,5 +10,15 @@
     align-items: center;
     justify-content: center;
     margin-top: 120px;
-}
 
+    &-span {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+        color: #303030;
+
+        & span {
+            font-weight: 600;
+        }
+    }
+}
