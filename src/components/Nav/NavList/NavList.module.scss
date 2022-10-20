@@ -1,0 +1,32 @@
+.nav__list {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+
+    &-link {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: capitalize;
+        color: #343434;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &::after {
+            content: '';
+            display: none;
+            background: #388AF3;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+        }
+
+        &.active::after {
+            display: block;
+        }
+        &.active {
+            color: #388AF3;
+        }
+    }
+}
