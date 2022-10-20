@@ -1,0 +1,49 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 45px;
+
+    &__logo {
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #303030;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        column-gap: 60px;
+
+        &-project {
+            max-width: 165px;
+            width: 100%;
+        }
+
+        &-project-link {
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 20px;
+            text-align: right;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            color: #388AF3;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: block;
+                width: 61px;
+                height: 61px;
+                border: 1px solid #E2E2E2;
+                border-radius: 50%;
+                position: absolute;
+                right: -15px;
+            }
+        }
+    }
+}

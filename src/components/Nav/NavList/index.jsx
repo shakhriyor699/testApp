@@ -1,27 +1,26 @@
 import React, { useState } from 'react'
 import classNames from 'classnames'
-
+import { Link } from 'react-router-dom'
 import styles from './NavList.module.scss'
 
 const NavList = ({ list }) => {
     const [active, setActive] = useState(0)
 
 
-    const addActive = (e, i) => {
-        e.preventDefault()
+    const addActive = (i) => {
         setActive(i)
     }
     return (
         <ul className={styles['nav__list']}>
             {list.map((item, index) => (
                 <li key={index} className={styles['nav__list-item']}>
-                    <a onClick={(e) => addActive(e, index)}
-                        href=""
+                    <Link onClick={() => addActive(index)}
+                        to={index === list.length - 1 ? "/Контакты" : '/'}
                         className={classNames(styles['nav__list-link'], {
                             [styles['active']]: active === index
                         })}>
                         {item}
-                    </a>
+                    </Link>
                 </li>
             ))}
         </ul>

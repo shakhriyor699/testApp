@@ -15,7 +15,8 @@
 
         &::after {
             content: '';
-            display: none;
+            display: block;
+            opacity: 0;
             background: #388AF3;
             width: 7px;
             height: 7px;
@@ -23,7 +24,7 @@
         }
 
         &.active::after {
-            display: block;
+            opacity: 1;
         }
         &.active {
             color: #388AF3;
