@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import styles from './NavList.module.scss'
 
 const NavList = ({ list }) => {
-    const [active, setActive] = useState(0)
+    const [active, setActive] = useState(2)
 
 
     const addActive = (i) => {

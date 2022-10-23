@@ -4,7 +4,7 @@
     column-gap: 50px;
 
     &-link {
-        font-weight: 600;
+        font-family: 'GSB';
         font-size: 18px;
         line-height: 21px;
         text-transform: capitalize;
@@ -29,5 +29,11 @@
         &.active {
             color: #388AF3;
         }
+    }
+}
+
+@media(max-width: 992px) {
+    .nav__list {
+        display: none;
     }
 }

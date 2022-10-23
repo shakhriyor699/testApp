@@ -5,7 +5,7 @@
     margin-top: 45px;
 
     &__logo {
-        font-weight: 800;
+        font-family: 'GEB';
         font-size: 40px;
         line-height: 50px;
         color: #303030;
@@ -25,7 +25,7 @@
             display: flex;
             align-items: center;
             column-gap: 10px;
-            font-weight: 600;
+            font-family: 'GEB';
             font-size: 16px;
             line-height: 20px;
             text-align: right;
@@ -43,6 +43,7 @@
                 border-radius: 50%;
                 position: absolute;
                 right: -15px;
+                z-index: -1;
             }
         }
     }

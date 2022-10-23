@@ -1,6 +1,5 @@
 import classNames from 'classnames'
 import React, { useState } from 'react'
-import message from '../../assets/icons/message.svg'
 import styles from './Contacts.module.scss'
 
 const Contacts = () => {
