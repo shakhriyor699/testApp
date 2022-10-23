@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import NavList from './NavList'
 
 import arrow from '../../assets/icons/arrow.svg'
@@ -11,9 +12,9 @@ import NavLang from './NavLang'
 const Navigation = ({lang, list}) => {
     return (
         <div className={styles['nav']}>
-            <a href="" className={styles['nav__logo']}>
+            <Link to="/" className={styles['nav__logo']}>
                 LOGO
-            </a>
+            </Link>
             <NavList list={list} />
             <div className={styles["nav__content"]}>
                 <NavLang lang={lang} />
