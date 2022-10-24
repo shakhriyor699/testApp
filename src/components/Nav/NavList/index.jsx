@@ -11,19 +11,21 @@ const NavList = ({ list }) => {
         setActive(i)
     }
     return (
-        <ul className={styles['nav__list']}>
-            {list.map((item, index) => (
-                <li key={index} className={styles['nav__list-item']}>
-                    <Link onClick={() => addActive(index)}
-                        to={index === list.length - 1 ? "/contacts" : '/'}
-                        className={classNames(styles['nav__list-link'], {
-                            [styles['active']]: active === index
-                        })}>
-                        {item}
-                    </Link>
-                </li>
-            ))}
-        </ul>
+        <>
+            <ul className={styles['nav__list']}>
+                {list.map((item, index) => (
+                    <li key={index} className={styles['nav__list-item']}>
+                        <Link onClick={() => addActive(index)}
+                            to={index === list.length - 1 ? "/contacts" : '/'}
+                            className={classNames(styles['nav__list-link'], {
+                                [styles['active']]: active === index
+                            })}>
+                            {item}
+                        </Link>
+                    </li>
+                ))}
+            </ul>
+        </>
     )
 }
 

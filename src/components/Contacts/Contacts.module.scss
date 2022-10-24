@@ -234,6 +234,12 @@
 @media(max-width: 992px) {
     .contacts {
 
+        &__form {
+            &-row {
+                margin-right: 0;
+            }
+        }
+
         &__form-btn {
             margin-top: 60px;
         }
@@ -245,6 +251,27 @@
         &__description {
             font-size: 16px;
             max-width: 519px;
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 768px) {
+    .contacts {
+
+        &__description {
+            font-size: 16px;
+            max-width: 321px;
+            width: 100%;
+        }
+
+        &__form {
+
+
+
+            & .comments {
+                width: 100%;
+            }
         }
     }
 }

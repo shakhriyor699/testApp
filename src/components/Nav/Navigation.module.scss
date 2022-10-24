@@ -48,3 +48,42 @@
         }
     }
 }
+
+@media(max-width: 414px) {
+    .nav__content-project {
+        display: none;
+    }
+    
+    .nav__burger {
+        
+        & span {
+            width: 7px;
+            height: 7px;
+            display: block;
+            background: #388AF3;
+            border-radius: 50%;
+            position: relative;
+            
+            &::before {
+                content: '';
+                width: 7px;
+                height: 7px;
+                display: block;
+                background: #388AF3;
+                border-radius: 50%;
+                position: absolute;
+                left: -10px;
+            }
+            &::after {
+                content: '';
+                width: 7px;
+                height: 7px;
+                display: block;
+                background: #388AF3;
+                border-radius: 50%;
+                position: absolute;
+                right: -10px;
+            }
+        }
+    }
+}

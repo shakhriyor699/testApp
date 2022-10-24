@@ -24,6 +24,9 @@ const Navigation = ({lang, list}) => {
                         <img src={arrow} alt="start project arrow" />
                     </a>
                 </div>
+                <div className={styles['nav__burger']}>
+                    <span></span>
+                </div>
             </div>
         </div>
     )
