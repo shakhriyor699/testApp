@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/testApp/static/css/main.0814c83d.css",
+    "main.js": "/testApp/static/js/main.62813e80.js",
+    "static/media/Circe-Regular.ttf": "/testApp/static/media/Circe-Regular.814e4dd4329ffdb6c9ed.ttf",
+    "static/media/Gilroy-Light.ttf": "/testApp/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
+    "static/media/Gilroy-Regular.ttf": "/testApp/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
+    "static/media/Gilroy-SemiBold.ttf": "/testApp/static/media/Gilroy-SemiBold.07b9100a72fe7d46d20a.ttf",
+    "static/media/Gilroy-Bold.ttf": "/testApp/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "static/media/Gilroy-ExtraBold.ttf": "/testApp/static/media/Gilroy-ExtraBold.59a66eb8c577778daaa5.ttf",
+    "static/media/whats-app.svg": "/testApp/static/media/whats-app.3b54ed8b90a4c1e8a0111541fc7aa69f.svg",
+    "index.html": "/testApp/index.html",
+    "static/media/telegram.svg": "/testApp/static/media/telegram.7616272fe8605a568a398946f6a989c7.svg",
+    "static/media/download.svg": "/testApp/static/media/download.9e22e0f18ca99d717ce69948078adac8.svg",
+    "static/media/arrow.svg": "/testApp/static/media/arrow.083147dba12ed308eb0d389e45ccc2e4.svg",
+    "main.0814c83d.css.map": "/testApp/static/css/main.0814c83d.css.map",
+    "main.62813e80.js.map": "/testApp/static/js/main.62813e80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0814c83d.css",
+    "static/js/main.62813e80.js"
+  ]
+}
